@@ -1,9 +1,9 @@
-import "./header.css";
+import "../../assets/styles/styles.css";
 import logo from "../../assets/loblawsLogo.png";
 
 function Header() {
   return (
-    <div className="font full-header hdr">
+    <div className="font hdr">
       <img src={logo} alt="" className="logo"></img>
       <h2 className="title">Morello's Your Independent Grocer</h2>
 

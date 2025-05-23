@@ -1,10 +1,11 @@
 import Header from "../components/header/header";
+import Main from "../components/main/main";
 
 function App() {
   return (
     <div>
       <Header />
-      <h1>Hello, World!</h1>
+      <Main />
     </div>
   );
 }

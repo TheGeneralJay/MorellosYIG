@@ -4,11 +4,23 @@
   font-style: normal;
 }
 
-.full-header {
+/* ==================================================================== */
+/* HEADER */
+/* ==================================================================== */
+
+.hdr {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  grid-template-columns: .2fr repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   background-color: rgb(250, 245, 245);
   border-radius: 5px;
 }
 
+/* About / Contact / Employee Links */
 .nav-links {
   align-content: center;
   text-decoration: none;
@@ -21,16 +33,6 @@
 
 .nav-links:hover {
   background-color: rgb(129, 19, 19);
-}
-
-.hdr {
-  display: grid;
-  text-align: center;
-  align-items: center;
-  grid-template-columns: .2fr repeat(5, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
 }
 
 .logo {
@@ -47,7 +49,17 @@
   text-align: left;
 }
 
+/* Navigation Buttons */
 .abt { grid-area: 1 / 4 / 2 / 5; }
 .contact { grid-area: 1 / 5 / 2 / 6; }
 .emp { grid-area: 1 / 6 / 2 / 7; }
 
+/* ==================================================================== */
+/* MAIN */
+/* ==================================================================== */
+
+.container {
+    background-color: rgb(250, 245, 245);
+    border-radius: 5px;
+    height: 350px;
+}
